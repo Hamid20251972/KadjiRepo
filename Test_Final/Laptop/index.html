@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop Pro X - Vente en Algérie</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .header-left {
+        flex: 1;
+      }
+
+      .header-right {
+        display: flex;
+        gap: 10px;
+      }
+
+      .header-right button {
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      .header-right button:hover {
+        background: white;
+        color: #2c3e50;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 30px auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .image {
+        flex: 1 1 50%;
+        min-height: 300px;
+        background: grey center/cover no-repeat;
+      }
+
+      .details {
+        flex: 1 1 50%;
+        padding: 30px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-top: 0;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .price {
+        font-size: 24px;
+        color: #e67e22;
+        margin: 20px 0;
+      }
+
+      .btn {
+        background-color: #27ae60;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .btn:hover {
+        background-color: #219150;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+
+        .image,
+        .details {
+          flex: 1 1 100%;
+        }
+
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .header-right {
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Laptop DELL Pro X</h1>
+        <p>Vente exclusive en Algérie - Performance et élégance</p>
+      </div>
+      <div class="header-right">
+        <button>Se connecter</button>
+        <button>Créer un compte</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="image">
+        <img src="./src/DELL.jpg" height="200" alt="image-introuvable" />
+      </div>
+      <div class="details">
+        <h2>Description</h2>
+        <p>
+          Le Laptop DELL Pro X combine performance, design et autonomie pour
+          répondre aux besoins des professionnels modernes en Algérie.
+        </p>
+
+        <h3>Caractéristiques :</h3>
+        <ul>
+          <li>Laptop DELL Pro X</li>
+          <li>Écran 15.6" Full HD</li>
+          <li>Processeur Intel Core i7 de 12e génération</li>
+          <li>16 Go RAM DDR5</li>
+          <li>SSD 512 Go NVMe</li>
+          <li>Windows 11 Pro préinstallé</li>
+          <li>Clavier rétroéclairé et châssis en aluminium</li>
+        </ul>
+
+        <div class="price">Prix : 219 900 DZD</div>
+        <a href="HamidAmmiSaid@Kadji.dz?subject=Achat Laptop Pro X" class="btn"
+          >Acheter maintenant</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
